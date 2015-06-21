@@ -45,9 +45,6 @@ The following files are available for the train and test data. Their description
 ##Creating the tidy datafile
 
 ###Guide to create the tidy data file
-Description on how to create the tidy data file (1. download the data, ...)/
-
-###Cleaning of the data
 The script is available here:
 https://github.com/ffusco/Getting-and-Cleaning-Data-project/blob/master/run_analysis.R
 
@@ -62,22 +59,94 @@ General description of the file including:
 
 (you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
 
-###Variable 1 (repeat this section for all variables in the dataset)
-Short description of what the variable describes.
+###Variables
+- "activityNumber" 
+- "activityDescription" 
+- "subjectNumber" 
+- "tBodyAcc-mean()-X" 
+- "tBodyAcc-mean()-Y" 
+- "tBodyAcc-mean()-Z" 
+- "tGravityAcc-mean()-X" 
+- "tGravityAcc-mean()-Y" 
+- "tGravityAcc-mean()-Z" 
+- "tBodyAccJerk-mean()-X" 
+- "tBodyAccJerk-mean()-Y" 
+- "tBodyAccJerk-mean()-Z" 
+- "tBodyGyro-mean()-X" 
+- "tBodyGyro-mean()-Y" 
+- "tBodyGyro-mean()-Z" 
+- "tBodyGyroJerk-mean()-X" 
+- "tBodyGyroJerk-mean()-Y" 
+- "tBodyGyroJerk-mean()-Z" 
+- "tBodyAccMag-mean()" 
+- "tGravityAccMag-mean()" 
+- "tBodyAccJerkMag-mean()" 
+- "tBodyGyroMag-mean()" 
+- "tBodyGyroJerkMag-mean()" 
+- "fBodyAcc-mean()-X" 
+- "fBodyAcc-mean()-Y" 
+- "fBodyAcc-mean()-Z" 
+- "fBodyAcc-meanFreq()-X" 
+- "fBodyAcc-meanFreq()-Y" 
+- "fBodyAcc-meanFreq()-Z" 
+- "fBodyAccJerk-mean()-X" 
+- "fBodyAccJerk-mean()-Y" 
+- "fBodyAccJerk-mean()-Z" 
+- "fBodyAccJerk-meanFreq()-X" 
+- "fBodyAccJerk-meanFreq()-Y" 
+- "fBodyAccJerk-meanFreq()-Z" 
+- "fBodyGyro-mean()-X" 
+- "fBodyGyro-mean()-Y" 
+- "fBodyGyro-mean()-Z" 
+- "fBodyGyro-meanFreq()-X" 
+- "fBodyGyro-meanFreq()-Y" 
+- "fBodyGyro-meanFreq()-Z" 
+- "fBodyAccMag-mean()" 
+- "fBodyAccMag-meanFreq()" 
+- "fBodyBodyAccJerkMag-mean()" 
+- "fBodyBodyAccJerkMag-meanFreq()" 
+- "fBodyBodyGyroMag-mean()" 
+- "fBodyBodyGyroMag-meanFreq()" 
+- "fBodyBodyGyroJerkMag-mean()" 
+- "fBodyBodyGyroJerkMag-meanFreq()" 
+- "angle(tBodyAccMean,gravity)" 
+- "angle(tBodyAccJerkMean),gravityMean)" 
+- "angle(tBodyGyroMean,gravityMean)" 
+- "angle(tBodyGyroJerkMean,gravityMean)" 
+- "angle(X,gravityMean)" 
+- "angle(Y,gravityMean)" 
+- "angle(Z,gravityMean)" 
+- "tBodyAcc-std()-X" 
+- "tBodyAcc-std()-Y" 
+- "tBodyAcc-std()-Z" 
+- "tGravityAcc-std()-X" 
+- "tGravityAcc-std()-Y" 
+- "tGravityAcc-std()-Z" 
+- "tBodyAccJerk-std()-X" 
+- "tBodyAccJerk-std()-Y" 
+- "tBodyAccJerk-std()-Z" 
+- "tBodyGyro-std()-X" 
+- "tBodyGyro-std()-Y" 
+- "tBodyGyro-std()-Z" 
+- "tBodyGyroJerk-std()-X" 
+- "tBodyGyroJerk-std()-Y" 
+- "tBodyGyroJerk-std()-Z" 
+- "tBodyAccMag-std()" 
+- "tGravityAccMag-std()" 
+- "tBodyAccJerkMag-std()" 
+- "tBodyGyroMag-std()" 
+- "tBodyGyroJerkMag-std()" 
+- "fBodyAcc-std()-X" 
+- "fBodyAcc-std()-Y" 
+- "fBodyAcc-std()-Z" 
+- "fBodyAccJerk-std()-X" 
+- "fBodyAccJerk-std()-Y" 
+- "fBodyAccJerk-std()-Z" 
+- "fBodyGyro-std()-X" 
+- "fBodyGyro-std()-Y" 
+- "fBodyGyro-std()-Z" 
+- "fBodyAccMag-std()" 
+- "fBodyBodyAccJerkMag-std()" 
+- "fBodyBodyGyroMag-std()" 
+- "fBodyBodyGyroJerkMag-std()"
 
-Some information on the variable including:
- - Class of the variable
- - Unique values/levels of the variable
- - Unit of measurement (if no unit of measurement list this as well)
- - In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels). 
-
-(you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
-
-####Notes on variable 1:
-If available, some additional notes on the variable not covered elsewehere. If no notes are present leave this section out.
-
-##Sources
-Sources you used if any, otherise leave out.
-
-##Annex
-If you used any code in the codebook that had the echo=FALSE attribute post this here (make sure you set the results parameter to 'hide' as you do not want the results to show again)
