@@ -52,10 +52,13 @@ The description of the procedure is here:
 https://github.com/ffusco/Getting-and-Cleaning-Data-project/blob/master/README.md
 
 ##Description of tinyData.txt file
-286 KB
-180 observations of 89 variables
+- 286 KB
+- 180 observations of 89 variables.
 
 ###Variables
+For the complete description of all the variables please refer to the file "features_info.txt" of the dataset.
+
+
 - "activityNumber": integer between 1 and 6  
 - "activityDescription": factor, 6 levels: WALKING - WALKING_UPSTAIRS - WALKING_DOWNSTAIRS - SITTING - STANDING - LAYING
 - "subjectNumber": integer between 1 and 30 indicating the subject   
